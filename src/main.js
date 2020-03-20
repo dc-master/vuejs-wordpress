@@ -11,7 +11,6 @@ Vue.use(VueResource);
 const router = new VueRouter({
     routes: Routes,
     mode: 'history',
-    base: '/vue-api',
 });
 
 
